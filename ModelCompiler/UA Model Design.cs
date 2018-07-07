@@ -16,7 +16,7 @@ namespace Opc.Ua.ModelCompiler {
     
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -157,7 +157,7 @@ namespace Opc.Ua.ModelCompiler {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -175,6 +175,10 @@ namespace Opc.Ua.ModelCompiler {
         private string xmlPrefixField;
         
         private string filePathField;
+        
+        private string versionField;
+        
+        private string publicationDateField;
         
         private string valueField;
         
@@ -245,6 +249,28 @@ namespace Opc.Ua.ModelCompiler {
         }
         
         /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string Version {
+            get {
+                return this.versionField;
+            }
+            set {
+                this.versionField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string PublicationDate {
+            get {
+                return this.publicationDateField;
+            }
+            set {
+                this.publicationDateField = value;
+            }
+        }
+        
+        /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
         public string Value {
             get {
@@ -257,7 +283,7 @@ namespace Opc.Ua.ModelCompiler {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -323,7 +349,7 @@ namespace Opc.Ua.ModelCompiler {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -337,6 +363,8 @@ namespace Opc.Ua.ModelCompiler {
         private int identifierField;
         
         private bool identifierFieldSpecified;
+        
+        private string bitMaskField;
         
         private System.Xml.XmlQualifiedName dataTypeField;
         
@@ -393,6 +421,17 @@ namespace Opc.Ua.ModelCompiler {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string BitMask {
+            get {
+                return this.bitMaskField;
+            }
+            set {
+                this.bitMaskField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
         public System.Xml.XmlQualifiedName DataType {
             get {
                 return this.dataTypeField;
@@ -427,7 +466,7 @@ namespace Opc.Ua.ModelCompiler {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -467,7 +506,7 @@ namespace Opc.Ua.ModelCompiler {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://opcfoundation.org/UA/ModelDesign.xsd")]
     public enum ValueRank {
@@ -486,7 +525,7 @@ namespace Opc.Ua.ModelCompiler {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -511,7 +550,7 @@ namespace Opc.Ua.ModelCompiler {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -579,7 +618,7 @@ namespace Opc.Ua.ModelCompiler {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ObjectDesign))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(EncodingDesign))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ViewDesign))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -700,7 +739,7 @@ namespace Opc.Ua.ModelCompiler {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://opcfoundation.org/UA/ModelDesign.xsd")]
     public enum ModellingRule {
@@ -744,7 +783,7 @@ namespace Opc.Ua.ModelCompiler {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ObjectDesign))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(EncodingDesign))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ViewDesign))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -931,7 +970,7 @@ namespace Opc.Ua.ModelCompiler {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DataTypeDesign))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(VariableTypeDesign))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ObjectTypeDesign))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -998,7 +1037,7 @@ namespace Opc.Ua.ModelCompiler {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1045,7 +1084,7 @@ namespace Opc.Ua.ModelCompiler {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1056,11 +1095,14 @@ namespace Opc.Ua.ModelCompiler {
         
         private EncodingDesign[] encodingsField;
         
+        private bool isOptionSetField;
+        
         private bool noArraysAllowedField;
         
         private bool notInAddressSpaceField;
         
         public DataTypeDesign() {
+            this.isOptionSetField = false;
             this.noArraysAllowedField = false;
             this.notInAddressSpaceField = false;
         }
@@ -1090,6 +1132,18 @@ namespace Opc.Ua.ModelCompiler {
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
         [System.ComponentModel.DefaultValueAttribute(false)]
+        public bool IsOptionSet {
+            get {
+                return this.isOptionSetField;
+            }
+            set {
+                this.isOptionSetField = value;
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        [System.ComponentModel.DefaultValueAttribute(false)]
         public bool NoArraysAllowed {
             get {
                 return this.noArraysAllowedField;
@@ -1113,7 +1167,7 @@ namespace Opc.Ua.ModelCompiler {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1123,7 +1177,7 @@ namespace Opc.Ua.ModelCompiler {
     
     /// <remarks/>
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(EncodingDesign))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1158,7 +1212,7 @@ namespace Opc.Ua.ModelCompiler {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1327,7 +1381,7 @@ namespace Opc.Ua.ModelCompiler {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://opcfoundation.org/UA/ModelDesign.xsd")]
     public enum AccessLevel {
@@ -1346,7 +1400,7 @@ namespace Opc.Ua.ModelCompiler {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1383,7 +1437,7 @@ namespace Opc.Ua.ModelCompiler {
     /// <remarks/>
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DictionaryDesign))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(PropertyDesign))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1534,7 +1588,7 @@ namespace Opc.Ua.ModelCompiler {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1556,7 +1610,7 @@ namespace Opc.Ua.ModelCompiler {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1565,7 +1619,7 @@ namespace Opc.Ua.ModelCompiler {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.0.30319.18020")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
